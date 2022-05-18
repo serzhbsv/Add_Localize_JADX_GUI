@@ -1,0 +1,1 @@
+COPY /b jadx-gui-1.3.5.exe.bak+jadx-gui-1.3.5.zip jadx-gui-1.3.5_Rus.exe
