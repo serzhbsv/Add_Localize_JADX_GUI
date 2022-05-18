@@ -2,7 +2,8 @@
 Добовляем Русскую локализацию в Jadx GUI - Dex to Java decompiler https://github.com/skylot/jadx<br>
  открываем jadx/gui/utils/NLS.java
  и там редактируем такой массив добовлением своей строчки LANG_LOCALES.add(new LangLocale("ru", "RU")); в:<br>
- ............................................................................................................
+ ...........................................................................................................<br>
+ 
 ........................LANG_LOCALES.add(new LangLocale("en", "US"));<br>
 ........................LANG_LOCALES.add(new LangLocale("zh", "CN"));<br>
 ........................LANG_LOCALES.add(new LangLocale("zh", "TW"));<br>
@@ -18,7 +19,7 @@
 ........................LANG_LOCALES.add(new LangLocale("ko", "KR"));<br>
 ........................LANG_LOCALES.add(new LangLocale("ru", "RU"));<br>
     сохраняем и компелируем....<br>
-   также там есть готовый собранный NLS.class и орегенальный NLS.java~ из jadx-gui-1.3.5-with-jre-win текущей на данный момент версии. <br>
+   также там есть готовый собранный NLS.class и орегенальный NLS.java~ <br>из jadx-gui-1.3.5-with-jre-win текущей на данный момент версии. <br>
    А собирал я так скачал openjdk-18.0.1.1_windows-x64_bin<br>
    в HxD - это хекс редактор под windows<br>
    Разделил jadx-gui-1.3.5.exe с zip частью<br>
